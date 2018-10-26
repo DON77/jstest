@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 1079px;
+    position: relative;
+    overflow: hidden;
+    background: #082a52;
+}
+
+.container > div {
+    position: absolute;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: transparent url('../images/background.jpg') no-repeat left top;
+    opacity: 0;
+}
+
+.back-mountain {
+    background: transparent url('../images/center.png') no-repeat center center;
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    opacity: 0;
+}
+
+.l-amp {
+    background: transparent url('../images/l-amp.png') no-repeat center center;
+    width: 100%;
+    height: 100%;
+    max-width: 479px;
+    max-height: 283px;
+    left: -500px;
+}
+
+.r-amp {
+    background: transparent url('../images/r-amp.png') no-repeat center center;
+    width: 100%;
+    height: 100%;
+    max-width: 615px;
+    max-height: 354px;
+    right: -500px;
+}
+
+.l-mountain {
+    background: transparent url('../images/r-mountain.png') no-repeat center center;
+    width: 100%;
+    height: 100%;
+    max-width: 986px;
+    max-height: 692px;
+    left: -500px;
+    bottom: -100%;
+    opacity: 0;
+}
+
+.r-mountain {
+    background: transparent url('../images/l-mountain.png') no-repeat center center;
+    width: 100%;
+    height: 100%;
+    max-width: 827px;
+    max-height: 735px;
+    right: -500px;
+    bottom: -80%;
+    opacity: 0;
+}
+
+.r-greenland {
+    background: transparent url('../images/rblur.png') no-repeat right bottom;
+    width: 100%;
+    height: 100%;
+    right: -100%;
+    opacity: 0;
+}
+
+.l-greenland {
+    background: transparent url('../images/lblur.png') no-repeat left bottom;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    opacity: 0;
+}
+
+.grass {
+    background: transparent url('../images/xot.png') no-repeat 300px 570px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.logo-light {
+    background: transparent url('../images/dexin.png') no-repeat;
+    width: 0px;
+    height: 0px;
+    left: 910px;
+    top: 590px;
+    background-size: 100% 100%;
+}
+
+.logo {
+    background: transparent url('../images/logo.png') no-repeat;
+    width: 0px;
+    height: 0px;
+    left: 910px;
+    top: 590px;
+    background-size: 100% 100%;
+}
+
+.logo-candies {
+    background: transparent url('../images/candy1.png') no-repeat;
+    width: 0px;
+    height: 0px;
+    left: 910px;
+    top: 400px;
+    background-size: 100% 100%;
+}
+
+.logo-shadow {
+    background: transparent url('../images/shoxk.png') no-repeat;
+    width: 0px;
+    height: 0px;
+    left: 910px;
+    bottom: 200px;
+    background-size: 100% 100%;
+}
+
+.candy2 {
+    background: transparent url('../images/candy2.png') no-repeat;
+    width: 0px;
+    height: 0px;
+    left: 0;
+    bottom: 230px;
+    background-size: 100% 100%;
+}
+
+.candy3 {
+    background: transparent url('../images/candy3.png') no-repeat;
+    width: 0px;
+    height: 0px;
+    right: 0;
+    bottom: 0;
+    background-size: 100% 100%;
+}
+
+.cookies {
+    right: 310px;
+    top: 540px;
+    width: 280px;
+}
+
+.cookie {
+    background: transparent url('../images/pechen.png') no-repeat;
+    background-size: 100% 100%;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+
+.cookie1 {
+    left: 70px;
+    top: 97px;
+}
+
+.cookie2 {
+    left: 132px;
+    top: 60px;
+}
+
+.cookie3 {
+    right: 83px;
+    top: 37px;
+}
+
+.cookie4 {
+    right: 32px;
+    top: 24px;
+}
+
+.stars {
+    background: transparent url('../images/star.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 455px;
+    top: 20px;
+}
